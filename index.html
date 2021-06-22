@@ -9,9 +9,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Template</title>
+    <title>Quote Generator</title>
   </head>
   <body>
+    <div class="quoteContainer" id="quoteGenerator">
+      <div class="quoteText">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote"
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          facere repellendus aute.</span
+        >
+      </div>
+      <div class="quoteAuthor">
+        <span id="author">Spartan</span>
+      </div>
+      <div class="buttonContainer">
+        <button class="twitterButton" id="twitterButton" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="newQuote">New Quote</button>
+      </div>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
   </body>
